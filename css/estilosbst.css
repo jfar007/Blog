@@ -1,0 +1,196 @@
+
+
+
+.navbar-inverse {
+  background-color:  #FFFFFF;
+  height: 10%;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.redes-sociales {
+  margin-top: 60px;
+  text-align:right;
+  padding: 1em;
+}
+
+.navbaritems{
+    text-align:center;
+    background-color: #ffb900cc;
+}
+
+.navbaritems li {
+  padding: 1em;
+}
+
+.navbaritems li:hover {
+  background-color: white;
+}
+
+.menu{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.img-biografia {
+  height: 300px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.img-grammy {
+  height: 500px;
+}
+
+
+.comments{
+  padding-top: 1em;
+  padding-left: 0px !important;
+}
+
+.imgbiografia{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  text-align: center;
+}
+
+.imggrammy{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  text-align: center;
+  height: 500px;
+}
+
+
+
+
+.container {
+  height: 100%;
+
+}
+
+textarea.form-control {
+  height: 100%;
+
+}
+.navbaritems a{
+   color:  black !important;
+}
+
+.iconp{
+  font-size:50px;
+  text-align: left;
+  width: 20% !important;
+}
+
+
+
+.main {
+    /* width: 10%; */
+    margin: 50px auto;
+}
+
+
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #ccc;
+}
+
+.has-search .form-control {
+    padding-right: 12px;
+    padding-left: 34px;
+}
+
+.menuv{
+  background-color: #222;
+  border-radius: 10px;
+  text-align: left;
+}
+.menuul{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.menuv li{
+  padding: 1em;
+  list-style:none;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+border-color: #ffffff;
+}
+.menuv ul{
+  border:5px;
+  border-color:  red;
+}
+.menuv a{
+  color: #ccc;
+
+}
+
+
+.menuul li:hover{
+  /* background-color:  #ccc;
+  color: #222;
+  text-decoration: none; */
+  opacity:0.1;
+  /* border-radius:30px; */
+  border-color: white !important;
+}
+
+.menuul a:hover{
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar-fixed-bottom{
+    margin: 0px;
+    background-color: yellow;
+    height: 10%;
+    list-style: none;
+}
+.row p {
+  color: white;
+}
+
+.row h3 {
+  color: white;
+}
+
+.musik-body {
+   background: url(../img/fondo.jpg); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: : 5%;
+  opacity: 2.5;
+
+}
+
+
+.logo-img {
+  width: 100px;
+}
+
+@media (max-width: 770px) {
+
+  .navbar-inverse {
+    text-align:center;
+  }
+  .redes-sociales {
+    margin-top: 60px;
+    text-align:center;
+    padding: 1em;
+  }
+
+  .img-grammy {
+    text-align: center;
+  }
+
+}
